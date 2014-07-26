@@ -3,8 +3,8 @@ $(document).ready(function(){
 	function ladyBug() {
 
 		setInterval(function(){
-			this.h = $(window).height() - 30;
-			this.w = $(window).width() - 100;
+			this.h = $(window).height() - 70;
+			this.w = $(window).width() - 40;
 			this.randomH = Math.floor(Math.random() * this.h);
 			this.randomW = Math.floor(Math.random() * this.w);
 			$('#ladybug').animate({
